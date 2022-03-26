@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: "12"
           cache: npm
+          cache-dependency-path: "**/package-lock.json"
           registry-url: "https://registry.npmjs.org"
           scope: "@tyankatsu0105"
 
