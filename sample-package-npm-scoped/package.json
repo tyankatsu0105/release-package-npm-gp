@@ -1,0 +1,12 @@
+{
+  "name": "@tyankatsu0105/sample-package-npm-scoped",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com> (https://tyankatsu.com)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
