@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./sample-package-npm-scoped
+        working-directory: sample-package-npm-scoped
 
     if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'releases/v')
     steps:
